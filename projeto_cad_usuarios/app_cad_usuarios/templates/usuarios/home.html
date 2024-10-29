@@ -12,7 +12,7 @@
             <span class="navbar-brand mb-0 h1">Cadastre-me!</span>
         </div>
     </nav>
-    <form action="{% url 'listagem_aluno' %}" method="post">
+    <form action="{% url 'listagem_usuarios' %}" method="post">
         {% csrf_token %}
         <div style="text-align: center;" class="container">
             <h1>Cadastro de Alunos</h1>
